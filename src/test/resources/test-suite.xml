@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="System Test Suite">
+    <test name="System Tests">
+        <classes>
+            <class name="com.vladosy4.SFTPClient.JsonHandlerTest"/>
+            <class name="com.vladosy4.SFTPClient.SFTPClientTest"/>
+        </classes>
+    </test>
+</suite>
